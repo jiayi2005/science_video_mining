@@ -34,6 +34,12 @@ fi
 echo "[backup] src=${SRC}"
 echo "[backup] dst=${DST}"
 
+RSYNC_RESUME_OPT="--append"
+if rsync --help 2>/dev/null | grep -q -- '--append-verify'; then
+  RSYNC_RESUME_OPT="--append-verify"
+fi
+echo "[backup] rsync resume option: ${RSYNC_RESUME_OPT}"
+
 sync_optional_file() {
   local fname="$1"
   set +e
@@ -48,7 +54,7 @@ sync_optional_file() {
 sync_optional_dir() {
   local dname="$1"
   set +e
-  rsync -avh --partial --append-verify "${SRC}/${dname}/" "${DST}/${dname}/"
+  rsync -avh --partial "${RSYNC_RESUME_OPT}" "${SRC}/${dname}/" "${DST}/${dname}/"
   local rc=$?
   set -e
   if [[ ${rc} -ne 0 ]]; then
