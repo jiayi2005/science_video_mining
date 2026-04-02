@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.DS_Store
+.vscode/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Large media artifacts (do NOT commit to GitHub)
+clips_wav/
+full_audio/
+subtitles/
+**/clips_wav/
+**/full_audio/
+**/subtitles/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+
+# Large run outputs
+science_eval_prod/
+science_eval_*/
+
+demo_outputs/audio_*/

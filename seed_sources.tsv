@@ -1,0 +1,20 @@
+# domain<TAB>url<TAB>note
+biology	https://www.youtube.com/@DeepLook/videos	micro-biology and ecology shorts, often with edited captions
+biology	https://www.youtube.com/@HHMIBioInteractive/videos	biology education videos
+medicine	https://www.youtube.com/@KhanAcademyMedicine/videos	medical education
+medicine	https://www.youtube.com/@NIHClinicalCenter/videos	clinical and medical lectures
+chemistry	https://www.youtube.com/@AmericanChemicalSociety/videos	chemistry talks and explainers
+chemistry	https://www.youtube.com/@periodicvideos/videos	chemistry experiments and element videos
+physics	https://www.youtube.com/@worldsciencefestival/videos	panel discussions and interviews
+physics	https://www.youtube.com/@fermilab/videos	particle physics and research updates
+geography	https://www.youtube.com/@NASA/videos	earth science, climate, space and geoscience
+geography	https://www.youtube.com/@USGS/videos	geology and earth observation
+multi	https://www.youtube.com/@TED/videos	cross-domain, many talks have manual subtitle tracks
+multi	https://www.youtube.com/@TEDxTalks/videos	cross-domain community talks
+multi	https://www.youtube.com/@mitocw/videos	cross-domain university lectures
+multi	https://www.youtube.com/@khanacademy/videos	cross-domain science education
+biology	https://www.ted.com/talks/robert_c_green_the_life_saving_secrets_in_your_baby_s_dna	high-yield direct TED source
+medicine	https://www.ted.com/talks/melissa_j_moore_how_mrna_medicine_will_change_the_world	high-yield direct TED source
+chemistry	https://www.ted.com/talks/vaitea_cowan_how_green_hydrogen_could_end_the_fossil_fuel_era	high-yield direct TED source
+physics	https://www.ted.com/talks/hartmut_neven_quantum_computers_aren_t_what_you_think_they_re_cooler	high-yield direct TED source
+geography	https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon	high-yield direct TED source

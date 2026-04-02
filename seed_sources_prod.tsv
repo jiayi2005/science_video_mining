@@ -1,0 +1,55 @@
+# domain<TAB>url<TAB>note
+# Production-oriented seed pool for >=10k mining.
+# Most URLs are channel-level /videos feeds; script will auto-expand and filter by manual subtitles.
+
+biology	https://www.youtube.com/@DeepLook/videos	micro-biology and ecology footage
+biology	https://www.youtube.com/@HHMIBioInteractive/videos	biology education with strong terminology
+biology	https://www.youtube.com/@iBiology/videos	research-focused biology talks
+biology	https://www.youtube.com/@NatureVideoChannel/videos	nature and life sciences explainers
+biology	https://www.youtube.com/@scishow/videos	broad biology topics, high volume
+biology	https://www.youtube.com/@TheJacksonLaboratory/videos	genetics and biomedical research
+
+medicine	https://www.youtube.com/@KhanAcademyMedicine/videos	medical education
+medicine	https://www.youtube.com/@NIHClinicalCenter/videos	clinical lectures and updates
+medicine	https://www.youtube.com/@MayoClinic/videos	clinical and patient-care topics
+medicine	https://www.youtube.com/@StanfordMedicine/videos	medical school and hospital talks
+medicine	https://www.youtube.com/@ClevelandClinic/videos	health and medical explainers
+medicine	https://www.youtube.com/@UCSF/videos	medical and translational research
+
+chemistry	https://www.youtube.com/@AmericanChemicalSociety/videos	ACS chemistry talks
+chemistry	https://www.youtube.com/@periodicvideos/videos	element and chemistry experiment videos
+chemistry	https://www.youtube.com/@RoyalSocietyOfChemistry/videos	chemistry outreach and lectures
+chemistry	https://www.youtube.com/@NileRed/videos	applied chemistry experiments
+chemistry	https://www.youtube.com/@NileBlue/videos	chemistry lab workflows
+chemistry	https://www.youtube.com/@ACSReactions/videos	chemistry concepts and reactions
+
+physics	https://www.youtube.com/@fermilab/videos	particle physics and accelerator science
+physics	https://www.youtube.com/@CERN/videos	high-energy physics and engineering
+physics	https://www.youtube.com/@sixtysymbols/videos	physics and astronomy interviews
+physics	https://www.youtube.com/@PerimeterInstitute/videos	theoretical physics lectures
+physics	https://www.youtube.com/@WorldScienceFestival/videos	science panels and long-form talks
+physics	https://www.youtube.com/@APSPhysics/videos	physics society talks and explainers
+
+geography	https://www.youtube.com/@NASA/videos	earth science, climate, geoscience
+geography	https://www.youtube.com/@USGS/videos	geology and earth observation
+geography	https://www.youtube.com/@NOAA/videos	weather, ocean, and climate science
+geography	https://www.youtube.com/@NatGeo/videos	earth systems and field science stories
+geography	https://www.youtube.com/@PBSEons/videos	deep-time earth and paleo context
+geography	https://www.youtube.com/@SmithsonianChannel/videos	nature and earth documentaries
+
+multi	https://www.youtube.com/@mitocw/videos	cross-domain university lectures
+multi	https://www.youtube.com/@khanacademy/videos	cross-domain science education
+multi	https://www.youtube.com/@stanfordonline/videos	course talks and public lectures
+multi	https://www.youtube.com/@crashcourse/videos	high-volume cross-domain explainers
+multi	https://www.youtube.com/@RoyalInstitution/videos	public science lectures
+multi	https://www.youtube.com/@veritasium/videos	science communication with rich entities
+multi	https://www.youtube.com/@NOVApbsOfficial/videos	science documentary segments
+multi	https://www.youtube.com/@TED/videos	cross-domain talks with strong subtitles
+multi	https://www.youtube.com/@TEDxTalks/videos	large-scale cross-domain talk pool
+
+# Optional high-yield direct TED fallback
+biology	https://www.ted.com/talks/robert_c_green_the_life_saving_secrets_in_your_baby_s_dna	high-yield direct TED source
+medicine	https://www.ted.com/talks/melissa_j_moore_how_mrna_medicine_will_change_the_world	high-yield direct TED source
+chemistry	https://www.ted.com/talks/vaitea_cowan_how_green_hydrogen_could_end_the_fossil_fuel_era	high-yield direct TED source
+physics	https://www.ted.com/talks/hartmut_neven_quantum_computers_aren_t_what_you_think_they_re_cooler	high-yield direct TED source
+geography	https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon	high-yield direct TED source
