@@ -3,8 +3,8 @@
 # Most URLs are channel-level /videos feeds; script will auto-expand and filter by manual subtitles.
 
 biology	https://www.youtube.com/@DeepLook/videos	micro-biology and ecology footage
-biology	https://www.youtube.com/@HHMIBioInteractive/videos	biology education with strong terminology
-biology	https://www.youtube.com/@iBiology/videos	research-focused biology talks
+biology	https://www.youtube.com/@AmoebaSisters/videos	biology education and terminology-rich explainers
+biology	https://www.youtube.com/@JourneytoMicro/videos	microbiology and ecology-focused talks
 biology	https://www.youtube.com/@NatureVideoChannel/videos	nature and life sciences explainers
 biology	https://www.youtube.com/@scishow/videos	broad biology topics, high volume
 biology	https://www.youtube.com/@TheJacksonLaboratory/videos	genetics and biomedical research

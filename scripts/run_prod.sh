@@ -38,6 +38,7 @@ CMD_TIMEOUT="${CMD_TIMEOUT:-60}"
 SAVE_EVERY="${SAVE_EVERY:-200}"
 PATH_MODE="${PATH_MODE:-relative}"
 DEDUP_KEY="${DEDUP_KEY:-segment}"
+KEEP_FULL_AUDIO="${KEEP_FULL_AUDIO:-0}"
 YTDLP_PROXY="${YTDLP_PROXY:-}"
 EXPAND_RETRIES="${EXPAND_RETRIES:-3}"
 EXPAND_BACKOFF="${EXPAND_BACKOFF:-2.0}"
@@ -68,6 +69,7 @@ echo "[run_prod] max_videos_per_source=${MAX_VIDEOS_PER_SOURCE}"
 echo "[run_prod] max_segments_per_video=${MAX_SEGMENTS_PER_VIDEO}"
 echo "[run_prod] max_per_domain=${MAX_PER_DOMAIN}"
 echo "[run_prod] sample_rate=${SAMPLE_RATE}"
+echo "[run_prod] keep_full_audio=${KEEP_FULL_AUDIO}"
 echo "[run_prod] cmd_timeout=${CMD_TIMEOUT}"
 echo "[run_prod] expand_retries=${EXPAND_RETRIES}"
 echo "[run_prod] expand_backoff=${EXPAND_BACKOFF}"
@@ -100,6 +102,9 @@ CMD=(
 
 if [[ -n "${YTDLP_PROXY}" ]]; then
   CMD+=(--proxy "${YTDLP_PROXY}")
+fi
+if [[ "${KEEP_FULL_AUDIO}" == "1" ]]; then
+  CMD+=(--keep-full-audio)
 fi
 if [[ "${FAIL_ON_SOURCE_EXPAND_ERROR}" == "1" ]]; then
   CMD+=(--fail-on-source-expand-error)

@@ -625,6 +625,15 @@ def cut_clip(
     return proc.returncode == 0 and clip_out.exists()
 
 
+def cleanup_full_audio(path: Optional[Path], keep_full_audio: bool) -> None:
+    if keep_full_audio or path is None:
+        return
+    try:
+        path.unlink(missing_ok=True)
+    except Exception as exc:
+        print(f"[WARN] failed to delete full audio path={path} err={exc}", file=sys.stderr, flush=True)
+
+
 def score_segment(
     seg: Segment,
     vocab_min1: set,
@@ -976,6 +985,7 @@ def build_manifest(args: argparse.Namespace) -> int:
                     file=sys.stderr,
                     flush=True,
                 )
+            cleanup_full_audio(full_audio_path, keep_full_audio=args.keep_full_audio)
 
     save_manifest(records, out_json=out_json, out_jsonl=out_jsonl)
     stats = write_stats(
@@ -1019,6 +1029,12 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
     parser.add_argument("--download-audio", action="store_true", default=False)
     parser.add_argument("--sample-rate", type=int, default=16000, choices=[16000, 22050, 24000])
+    parser.add_argument(
+        "--keep-full-audio",
+        action="store_true",
+        default=False,
+        help="Keep downloaded full_audio wav files after clip extraction",
+    )
     parser.add_argument("--cmd-timeout", type=float, default=45.0, help="Per external command timeout seconds")
     parser.add_argument("--proxy", default="", help="Proxy passed to yt-dlp, e.g. socks5://127.0.0.1:1080")
     parser.add_argument("--expand-retries", type=int, default=2, help="Retries for yt-dlp source/video metadata fetch")
