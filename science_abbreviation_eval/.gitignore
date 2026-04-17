@@ -1,0 +1,6 @@
+__pycache__/
+outputs/
+*.log
+*.wav
+*.zip
+audio_unzipped/

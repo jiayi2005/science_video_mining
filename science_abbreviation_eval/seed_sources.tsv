@@ -1,0 +1,12 @@
+# domain<TAB>url<TAB>note
+biology	https://www.youtube.com/@HHMIBioInteractive/videos	biology education videos with terminology-rich narration
+biology	https://www.youtube.com/@TheJacksonLaboratory/videos	genetics and biomedical research talks
+medicine	https://www.youtube.com/@NIHClinicalCenter/videos	clinical and medical lectures
+medicine	https://www.youtube.com/@StanfordMedicine/videos	medical school and hospital talks
+chemistry	https://www.youtube.com/@AmericanChemicalSociety/videos	chemistry talks and explainers
+physics	https://www.youtube.com/@fermilab/videos	particle physics and research updates
+geography	https://www.youtube.com/@NASA/videos	earth science, climate, space and geoscience
+multi	https://www.youtube.com/@TED/videos	cross-domain talks with strong subtitles
+multi	https://www.youtube.com/@mitocw/videos	cross-domain university lectures
+biology	https://www.ted.com/talks/robert_c_green_the_life_saving_secrets_in_your_baby_s_dna	high-yield DNA and genomics source
+medicine	https://www.ted.com/talks/melissa_j_moore_how_mrna_medicine_will_change_the_world	high-yield mRNA medicine source

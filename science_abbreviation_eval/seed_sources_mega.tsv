@@ -1,0 +1,54 @@
+# domain<TAB>url<TAB>note
+biology	https://www.youtube.com/@DeepLook/videos	micro-biology and ecology footage
+biology	https://www.youtube.com/@AmoebaSisters/videos	biology education and terminology-rich explainers
+biology	https://www.youtube.com/@JourneytoMicro/videos	microbiology and ecology-focused talks
+biology	https://www.youtube.com/@NatureVideoChannel/videos	nature and life sciences explainers
+biology	https://www.youtube.com/@scishow/videos	broad biology topics, high volume
+biology	https://www.youtube.com/@TheJacksonLaboratory/videos	genetics and biomedical research
+medicine	https://www.youtube.com/@KhanAcademyMedicine/videos	medical education
+medicine	https://www.youtube.com/@NIHClinicalCenter/videos	clinical lectures and updates
+medicine	https://www.youtube.com/@MayoClinic/videos	clinical and patient-care topics
+medicine	https://www.youtube.com/@StanfordMedicine/videos	medical school and hospital talks
+medicine	https://www.youtube.com/@ClevelandClinic/videos	health and medical explainers
+medicine	https://www.youtube.com/@UCSF/videos	medical and translational research
+chemistry	https://www.youtube.com/@AmericanChemicalSociety/videos	ACS chemistry talks
+chemistry	https://www.youtube.com/@periodicvideos/videos	element and chemistry experiment videos
+chemistry	https://www.youtube.com/@RoyalSocietyOfChemistry/videos	chemistry outreach and lectures
+chemistry	https://www.youtube.com/@NileRed/videos	applied chemistry experiments
+chemistry	https://www.youtube.com/@NileBlue/videos	chemistry lab workflows
+chemistry	https://www.youtube.com/@ACSReactions/videos	chemistry concepts and reactions
+physics	https://www.youtube.com/@fermilab/videos	particle physics and accelerator science
+physics	https://www.youtube.com/@CERN/videos	high-energy physics and engineering
+physics	https://www.youtube.com/@sixtysymbols/videos	physics and astronomy interviews
+physics	https://www.youtube.com/@PerimeterInstitute/videos	theoretical physics lectures
+physics	https://www.youtube.com/@WorldScienceFestival/videos	science panels and long-form talks
+physics	https://www.youtube.com/@APSPhysics/videos	physics society talks and explainers
+geography	https://www.youtube.com/@NASA/videos	earth science, climate, geoscience
+geography	https://www.youtube.com/@USGS/videos	geology and earth observation
+geography	https://www.youtube.com/@NOAA/videos	weather, ocean, and climate science
+geography	https://www.youtube.com/@NatGeo/videos	earth systems and field science stories
+geography	https://www.youtube.com/@PBSEons/videos	deep-time earth and paleo context
+geography	https://www.youtube.com/@SmithsonianChannel/videos	nature and earth documentaries
+multi	https://www.youtube.com/@mitocw/videos	cross-domain university lectures
+multi	https://www.youtube.com/@khanacademy/videos	cross-domain science education
+multi	https://www.youtube.com/@stanfordonline/videos	course talks and public lectures
+multi	https://www.youtube.com/@crashcourse/videos	high-volume cross-domain explainers
+multi	https://www.youtube.com/@RoyalInstitution/videos	public science lectures
+multi	https://www.youtube.com/@veritasium/videos	science communication with rich entities
+multi	https://www.youtube.com/@NOVApbsOfficial/videos	science documentary segments
+multi	https://www.youtube.com/@TED/videos	cross-domain talks with strong subtitles
+multi	https://www.youtube.com/@TEDxTalks/videos	large-scale cross-domain talk pool
+biology	https://www.ted.com/talks/robert_c_green_the_life_saving_secrets_in_your_baby_s_dna	high-yield direct TED source
+medicine	https://www.ted.com/talks/melissa_j_moore_how_mrna_medicine_will_change_the_world	high-yield direct TED source
+chemistry	https://www.ted.com/talks/vaitea_cowan_how_green_hydrogen_could_end_the_fossil_fuel_era	high-yield direct TED source
+physics	https://www.ted.com/talks/hartmut_neven_quantum_computers_aren_t_what_you_think_they_re_cooler	high-yield direct TED source
+geography	https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon	high-yield direct TED source
+biology	https://www.ted.com/talks/eric_nguyen_how_ai_could_generate_new_life_forms	validated TED biology source
+medicine	https://www.ted.com/talks/abdoulaye_diabate_how_to_end_malaria_once_and_for_all	validated TED medicine source
+physics	https://www.ted.com/talks/shohini_ghose_a_beginner_s_guide_to_quantum_computing	validated TED physics source
+biology	https://www.ted.com/talks/emily_leproust_how_synthetic_biology_can_improve_our_health_food_and_materials	validated TED synthetic biology source
+biology	https://www.ted.com/talks/cliff_kapono_and_keolu_fox_could_we_replace_data_centers_with_plant_dna	validated TED bio-computing source
+medicine	https://www.ted.com/talks/anna_greka_the_world_s_rarest_diseases_and_how_they_impact_everyone	validated TED rare disease source
+biology	https://www.ted.com/talks/jennifer_doudna_crispr_s_next_advance_is_bigger_than_you_think	validated TED CRISPR source
+biology	https://www.ted.com/talks/cesar_ramirez_sarmiento_the_new_era_of_ai_powered_protein_design	validated TED protein design source
+biology	https://www.ted.com/talks/karsten_temme_the_tiny_organisms_transforming_farming	validated TED biotech source

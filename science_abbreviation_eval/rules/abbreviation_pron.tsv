@@ -1,0 +1,8 @@
+abbr	canonical_reading	pron_type	confidence_tier	rule_id	variants	notes
+DNA	d n a	spell_out	high_conf	spellout_dna	DNAs	classic letter-by-letter reading
+RNA	r n a	spell_out	high_conf	spellout_rna	RNAs	classic letter-by-letter reading
+mRNA	m r n a	camel_case	high_conf	camel_mrna	mRNAs	most common spoken form for scientific talks
+BRCA	brica	lexicalized	low_conf	lex_brca		corpus-specific lexicalized reading
+BRCA2	brica 2	mixed_alnum	low_conf	lex_brca2		lexicalized base with numeric suffix
+H1N1	h one n one	mixed_alnum	high_conf	mixed_h1n1		alphanumeric flu subtype
+ER	e r	spell_out	high_conf	spellout_er	ER-positive	receptor abbreviation; surface may appear with suffix

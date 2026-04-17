@@ -1,0 +1,10 @@
+{
+  "stable_ted": "/DB/rhome/heyangliu/science_abbreviation_eval/seed_sources_ted_boost.tsv",
+  "stable_direct": "/DB/rhome/heyangliu/science_abbreviation_eval/seed_sources_stable_direct.tsv",
+  "broad_pool": "/DB/rhome/heyangliu/science_abbreviation_eval/seed_sources_mega.tsv",
+  "order": [
+    "stable_ted",
+    "stable_direct",
+    "broad_pool"
+  ]
+}
